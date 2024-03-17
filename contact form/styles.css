@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px 100px;
+
+}
+
+.container:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(./stock-photo-contact-us-symbol-in-businessman-hand-email-icon.jpg)  center;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(80px);
+}
+
+.contact-box {
+    max-width: 850px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+.left {
+    height: 100%;
+    background: url(./stock-photo-contact-us-symbol-in-businessman-hand-email-icon.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.right {
+    padding: 25px 40px;
+    height: 600px;
+  
+}
+
+h1 {
+    position: relative;
+    margin: 0;
+    padding: 20px;
+
+}
+
+.h2:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+}
+
+.field {
+    width: 100%;
+    padding: 1em 1.5rem;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba(230, 230, 230, 0.6);
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+}
+
+.gender-container {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    background-color: rgba(230, 230, 230, 0.6);
+    display: flex;
+    gap: 15px;
+    color: #757575;
+    padding: 1em 1.5rem;
+}
+
+button {
+    background-color: #C0C5D1;
+    margin-top: 30px;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.textarea {
+    padding: 20px;
+}
+
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.field {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+#confirmation-banner {
+    display: none;}
