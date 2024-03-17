@@ -1,0 +1,15 @@
+.submission-form {
+    max-width: 500px;
+    margin: 1rem auto;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+label {
+    display: block;
+}
+
+input {
+
+    display: block;
+}
