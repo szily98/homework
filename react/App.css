@@ -1,0 +1,100 @@
+.App {
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  border: 3px solid black;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.AppContainer {
+  background-color:#F5F5DC;
+  border: 3px solid black;
+  border-style: solid;
+  width: 1000px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.HomePage, .EmployeePage {
+  display: flex;
+  flex-direction: column;
+  margin: .5px;
+  display: flex;
+  width: 50%;
+  background-color: #F5F5DC;
+  border: 2px solid #d9b99b;
+}
+
+.HeaderBar {
+  background-color: #F5F5DC;
+  border: 3px solid black;
+  margin: 2px;
+  border-color: #e4d5b7;
+  font-weight: bold;
+  padding: 15px;
+  font-size: 1.2rem;
+}
+
+.SearchBar {
+  background-color:  #F5F5DC;
+  border: 2px solid #eed9c4;
+  margin: 2px;
+  padding: 1px;
+}
+
+.inputSearch {
+  background-color: #F5F5DC;
+  border-radius: 15px;
+  border-width: 1px;
+  width: 93%;
+  outline: none;
+  padding: 1em;
+}
+
+.EmployeeList {
+  background-color: #F5F5DC;
+  border: 2px solid #b2a48a;
+  margin: 2px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ListItem {
+  border: 2px solid #b2a48a;
+  padding: 3px;
+  margin: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+p {
+  margin: 0;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.jobTitle {
+  font-style: italic;
+  color: #928f86;
+}
+
+
+.divText {
+  padding-left: 20px;
+}
+
+
+
+
+
+
+
