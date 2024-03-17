@@ -1,0 +1,47 @@
+body {
+  background-color: #c3e4f3;
+}
+
+h1 {
+  color: #ff9b83;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 10px black;
+}
+
+h3 {
+  color: #253949;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 10px black;
+}
+
+#weather-info {
+  background-color: #259ed9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px black;
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.weather-item {
+  margin-bottom: 15px;
+}
+
+.weather-item h2 {
+  margin-top: 0;
+  color: #fbfaff;
+}
+
+.weather-item .temperature {
+  font-size: 24px;
+  font-weight: bold;
+  color: #253949;
+}
+
+.weather-item .description {
+  font-size: 18px;
+  color: #253949;
+}
